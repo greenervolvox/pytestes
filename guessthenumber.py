@@ -9,9 +9,8 @@ def guess(x):
         if guess < random_number:
             print('Sorry, guess again. Too low \n')
         elif guess > random_number:
-            print('Sorry, guess again. Too high')
+            print('Sorry, guess again. Too high \n')
+    
+    print(f'Got it. {random_number} \n')
 
-            print(f'Got it. {random_number} \n')
-            break
-
-guess(10) 
+guess(10)
